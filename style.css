@@ -6,11 +6,21 @@ body {
 
 .card {
     margin: 225px 0 0 0;
-    background-color: hsl(217, 19%, 38%);
+    background-color: hsla(216, 19%, 38%, 0.527);
     width: 540px;
     height: 333px;
     text-align: center;
+    border: 0px transparent;
     border-radius: 15px;
+    /*box-shadow: 5px 5px rgba(78, 93, 115, 0.4),
+              10px 10px rgba(78, 93, 115, 0.3),
+              15px 15px rgba(78, 93, 115, 0.2),
+              20px 20px rgba(78, 93, 115, 0.1),
+              25px 25px rgba(78, 93, 115, 0.05); */
+    box-shadow: 34px 45px 14px 80px hsl(217, 40%, 16%, 0.1),
+                 30px 55px 14px 20px hsl(217, 40%, 16%, 0.11),
+                 40px 60px 14px -20px hsl(217, 40%, 16%, 0.12),
+                 30px 60px 14px -45px hsl(217, 40%, 16%, 0.2); 
 }
 
 .advice-title{
