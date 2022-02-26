@@ -62,6 +62,11 @@ body {
         font-size: 22px;
     }
 
+    .card {
+        margin: 160px 0 0 0;
+    }
+
+
     .divider-icon{
        display: none;
     }
