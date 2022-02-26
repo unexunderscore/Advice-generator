@@ -6,6 +6,7 @@ console.log(greetings);
 function randomFunction() {
 location.reload(); 
 }   
+
 fetch('https://api.adviceslip.com/advice')
     .then( (data) => data.json())
     .then( (advice) => generateAdvice(advice))
