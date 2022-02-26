@@ -1,4 +1,30 @@
 body {
     background-color: hsl(217, 19%, 24%);
     font-family: 'Manrope', sans-serif;
+    font-size: 28px;
 }
+
+.card {
+    margin: 225px 0 0 0;
+    background-color: hsl(217, 19%, 38%);
+    width: 540px;
+    height: 333px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.advice-title{
+    margin: 3rem 0 0 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: hsl(150, 100%, 66%);
+}
+
+.advice-text{
+    margin: 3rem 0 0 0;
+    color:hsl(193, 38%, 86%);
+}
+
+
+
